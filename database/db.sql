@@ -1,9 +1,3 @@
--- creating database
-CREATE DATABASE crudnodemysql;
-
--- using database
-USE crudnodemysql;
-
 -- creating a table
 CREATE TABLE customer(
     id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
@@ -17,9 +11,3 @@ SHOW TABLES;
 
 -- to describe the table
 describe customer;
-
-
-
-
-
-
